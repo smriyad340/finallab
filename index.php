@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Job Application</title>
+</head>
+<body>
+
+<h2>Online Job Application Form</h2>
+
+<form action="process.php" method="POST" enctype="multipart/form-data">
+
+Applicant ID:
+<input type="text" name="id"><br><br>
+
+Full Name:
+<input type="text" name="name"><br><br>
+
+Email:
+<input type="email" name="email"><br><br>
+
+Phone:
+<input type="text" name="phone"><br><br>
+
+Password:
+<input type="password" name="password"><br><br>
+
+Gender:
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
+<br><br>
+
+Job Position:
+<select name="position">
+<option value="">Select Position</option>
+<option>Software Developer</option>
+<option>Web Developer</option>
+<option>Database Administrator</option>
+<option>Network Engineer</option>
+</select>
+<br><br>
+
+Qualification:
+<input type="text" name="qualification"><br><br>
+
+Address:
+<textarea name="address"></textarea>
+<br><br>
+
+Upload CV:
+<input type="file" name="cv">
+<br><br>
+
+<input type="submit" value="Apply">
+
+</form>
+
+</body>
+</html>
